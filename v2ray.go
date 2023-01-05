@@ -340,7 +340,7 @@ func (s *Instance) Start() error {
 		}
 	}
 
-	newError("V2Ray ", Version(), " started").AtWarning().WriteToLog()
+	newError("Airline ", Version(), " started").AtWarning().WriteToLog()
 
 	return nil
 }
